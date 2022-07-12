@@ -1,24 +1,23 @@
 {
-  "name": "project-card-moved-notification",
+  "name": "project-card-moved-notification-action",
   "version": "1.0.0",
-  "description": "",
+  "description": "This GitHub Action allows you to notify an issue's assignee when its corresponding project card moves between columns.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jenschelkopf/project-card-moved-notification.git"
+    "url": "git+https://github.com/bidwrangler/project-card-moved-notification-action.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jenschelkopf/project-card-moved-notification/issues"
+    "url": "https://github.com/bidwrangler/project-card-moved-notification-action/issues"
   },
-  "homepage": "https://github.com/jenschelkopf/project-card-moved-notification#readme",
+  "homepage": "https://github.com/bidwrangler/project-card-moved-notification-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.4",
-    "@actions/github": "^4.0.0"
+    "@actions/core": "^1.9.0",
+    "axios": "^0.27.2"
   }
 }
